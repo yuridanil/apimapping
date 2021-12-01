@@ -25,10 +25,9 @@ main {
 }
 
 main > div {
-  flex: 1 1 20rem;
+  flex: 1 1 10rem;
 }
 
 main > div:hover {
   background-color: #aaaaaa;
 }
-

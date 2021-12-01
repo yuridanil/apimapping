@@ -38,7 +38,9 @@ window.onload = () => {
       console.log(json);
       myDataset = new Dataset(json, schema);
       myDataset.draw(document.querySelector("main"));
+      console.log(myDataset);
     });
+
   }
   
 }
