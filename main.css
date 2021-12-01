@@ -1,0 +1,34 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 8rem;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #cccccc;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+main > div {
+  flex: 1 1 20rem;
+}
+
+main > div:hover {
+  background-color: #aaaaaa;
+}
+
