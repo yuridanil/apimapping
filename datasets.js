@@ -1,11 +1,12 @@
 function getProperty(object, prop) {
-  return prop.split('.').reduce((acc, part) => acc && acc[part], object);
+  return prop.split('.').reduce((acc, part) => acc && acc[part], object) || prop;
 }
 
 class Dataset {
 
   draw = (container) => {
     container.innerHTML = null;
+
     this.items.forEach (item => {
 
       let img = document.createElement("img");
