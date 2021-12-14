@@ -10,3 +10,5 @@ To run web server:
 ```
 http-server -p 3000
 ```
+
+Read more: https://hackernoon.com/using-json-mapping-to-work-with-apis-of-various-image-services
